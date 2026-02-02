@@ -22,7 +22,7 @@ yesBtn.addEventListener("click", () => {
     bgMusic.play().then(() => {
       const container = document.querySelector('.container');
       if (container) {
-        container.innerHTML = "<h1 style='color:#ff2e93;text-align:center;margin-top:10vh;'>Yayyy 💕</h1>";
+        container.innerHTML = "<h1 style='color:#ff2e93;text-align:center;margin-top:10vh;'>I Love You Bache, Be Ready For Surprises...💕</h1>";
       }
       console.log('Playback started via Yes button');
     }).catch(e => {
